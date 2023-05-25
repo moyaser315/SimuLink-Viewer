@@ -198,7 +198,21 @@ public class Main extends Application {
     }
 
     public static void main(String[] args) throws XPathException {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Please enter the mdl file path: ");
+        String filePath = input.next().strip();
 
+        SystemParser parser = new SystemParser(filePath);
+        mdlSystem = parser.getMDLSystem();
+
+        System.out.println("Current X pos: " + mdlSystem.getCurrentXPos());
+        System.out.println("Current Y pos: " + mdlSystem.getCurrentYPos());
+        System.out.println("MDL Project Name: " + mdlSystem.getReportName());
+        System.out.println("Zoom Factor: " + mdlSystem.getZoomFactor());
+        mdlSystem.printBlocks();
+        mdlSystem.printLines();
+
+        input.close();
         launch(args);
 
     }
