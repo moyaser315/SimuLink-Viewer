@@ -34,4 +34,4 @@ for vscode :
 - in "vmArgs" write you javafx source 
 - *** run the project ***
 ## output using example files provided
-![](./img/3.jpeg)
+![](./img/3.jpg)
