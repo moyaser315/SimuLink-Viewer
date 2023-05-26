@@ -11,7 +11,7 @@ Yassa Seifen Ayed Helmy | 2001307
 
 ## implementaion 
 - in this program we first take an mdl file as an input and check if this file is a valid file with valid extention
-- we proceed to parse the xml file extracting its blocks and lines using functions we implemented in the *** SystemPaser ***\
+- we proceed to parse the xml file extracting its blocks and lines using functions we implemented in the *** SystemPaser ***
 
 ``` bash
   data extract from there 
